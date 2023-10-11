@@ -18,3 +18,7 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /www/whitestarweb.com/main/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/db/**
